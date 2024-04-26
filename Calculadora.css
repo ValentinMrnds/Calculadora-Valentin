@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que el cuerpo de la página ocupe toda la altura visible del viewport */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    background-color: #aecc8a;
+    /* background-color: var(--backgroundColor); */
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#display{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;    
+    font-size: 50px;
+    color:white;
+    margin-bottom: 20px;
+    border: solid;
+    border-color: #f4f8ed;
+    background-color: #455f2c;
+    height:120px ;
+    width:760px ;
+    border-radius: 30px;
+}
+.btn{
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 35px;
+    margin: 10px;
+    background-color: #91b764;
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+    border: solid 2px;
+}
+.btn:hover{
+    border-radius: 40px;
+    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: rgb(160, 201, 111)   ;
+    border: 10px;
+}
+.funciones{
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 35px;
+    margin: 10px;
+    background-color: #6f9744;
+    border-radius: 30px;
+    height: 130px;
+    width: 130px;
+    border: 3px solid;
+}
+.funciones:hover{
+    border-radius:15px;
+    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #61853b   ;
+    border: 3px solid;
+}
+#igual{
+    height: 100px;
+    width: 224px;
+}
+#CE{
+    height: 100px;
+    width: 224px;
+}
+#Cambio{
+    position: relative;
+    bottom: 700px;
+    left: 200px;
+    margin: 0;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: #527b35;
+    cursor: pointer;
+}
+#Cambio:hover{
+    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,0.5)  ;
+    transition: box-shadow 0.3s ease;
+    background-color: #84d3ed   ;
+}
+/* #E5232Fff */
+#Conteiner{
+    position: absolute;
+}
+#ConteinerColors{
+    position:relative;
+    background-color: white;
+    top:400px;
+    left:580px;
+    height: 40px;
+    width: 80px;
+    /* border: solid 2px; */
+    cursor: pointer;
+}
+#changeColorRed{
+    position:relative;
+    background-color:  #E5232Fff;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 0px ;
+}
+#changeColorPurple{
+    position:absolute;
+    background-color:  #ce26c0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    justify-content: right;
+    border: 0px;
+}
