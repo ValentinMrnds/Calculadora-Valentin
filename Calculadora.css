@@ -4,7 +4,7 @@ body{
     justify-content: center;
     height: 100vh; /* Asegura que el cuerpo de la página ocupe toda la altura visible del viewport */
     margin: 0; /* Elimina el margen predeterminado del cuerpo */
-    background-color: #aecc8a;
+    background-color: #101B55; /*Color principal*/
     /* background-color: var(--backgroundColor); */
     font-family: 'Signika Negative', sans-serif;
 }
@@ -15,32 +15,55 @@ body{
     font-size: 50px;
     color:white;
     margin-bottom: 20px;
-    border: solid;
-    border-color: #f4f8ed;
-    background-color: #455f2c;
-    height:120px ;
-    width:760px ;
-    border-radius: 30px;
+    border: solid 0;
+    background-color: #1c3193;
+    height:100px ;
+    width:470px ;
+    background: linear-gradient(to bottom, #1c3193, #101B55);
+    border-radius: 35px;
+    transition: box-shadow 0.5s ease, background-color 0.5s ease;
+    /* Establece la sombra inicial */
+    box-shadow: none;
+}
+#display:hover{
+    border-radius: 35px;
+    box-shadow: 0.5px 1px 1rem 10px white;
+    transition: box-shadow 0.5s ease;
+    background-color: #2f49bd;
+    background: linear-gradient(to bottom, #2f49bd, #101B55);
+
 }
 .btn{
     cursor: pointer;
     font-family: 'Signika Negative', sans-serif;
     font-size: 35px;
     margin: 10px;
-    background-color: #91b764;
-    border-radius: 30px;
-    height: 100px;
-    width: 100px;
-    border: solid 2px;
+    background-color: #1834ea;
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+    color: white;
+    border: solid 0;
+    /* background: linear-gradient(to bottom, #1834ea, #101B55); */
+
 }
-.btn:hover{
+#Conteiner{
+    position: absolute;
+    width: 470px;
+    border: solid 4px #0b123b;
+    border-radius: 35px;
+
+}
+
+
+/* .btn:hover{
     border-radius: 40px;
     box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,1)  ;
     transition: box-shadow 0.1s ease;
     background-color: rgb(160, 201, 111)   ;
     border: 10px;
-}
-.funciones{
+} */
+/* .funciones{
     cursor: pointer;
     font-family: 'Signika Negative', sans-serif;
     font-size: 35px;
@@ -57,15 +80,17 @@ body{
     transition: box-shadow 0.1s ease;
     background-color: #61853b   ;
     border: 3px solid;
-}
+} */
 #igual{
-    height: 100px;
-    width: 224px;
+    height: 160px;/*140 + 10 de margin + 10 de margin de relleno */
+    position:absolute;
 }
 #CE{
-    height: 100px;
-    width: 224px;
+    width: 160px;/*140 + 10 de margin + 10 de margin de relleno */
+    position:absolute;
+    left: 190px;
 }
+/* 
 #Cambio{
     position: relative;
     bottom: 700px;
@@ -84,7 +109,7 @@ body{
 }
 /* #E5232Fff */
 #Conteiner{
-    position: absolute;
+    /* position: absolute; */
 }
 #ConteinerColors{
     position:relative;
@@ -112,4 +137,4 @@ body{
     cursor: pointer;
     justify-content: right;
     border: 0px;
-}
+} 
