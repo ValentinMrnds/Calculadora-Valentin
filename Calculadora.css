@@ -10,7 +10,8 @@ body{
 }
 
 #display{
-    text-align: center;
+    text-align:  center;
+    justify-content: center;
     font-family: 'Signika Negative', sans-serif;    
     font-size: 50px;
     color:white;
@@ -45,7 +46,10 @@ body{
     color: white;
     border: solid 0;
     /* background: linear-gradient(to bottom, #1834ea, #101B55); */
-
+}#btn:hover{
+    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #61853b   ;
 }
 #Conteiner{
     position: absolute;
@@ -76,9 +80,7 @@ body{
 }
 .funciones:hover{
     border-radius:15px;
-    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
-    background-color: #61853b   ;
+   
     border: 3px solid;
 } */
 #igual{
@@ -90,51 +92,3 @@ body{
     position:absolute;
     left: 190px;
 }
-/* 
-#Cambio{
-    position: relative;
-    bottom: 700px;
-    left: 200px;
-    margin: 0;
-    border-radius: 15px;
-    height: 50px;
-    width: 50px;
-    background-color: #527b35;
-    cursor: pointer;
-}
-#Cambio:hover{
-    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,0.5)  ;
-    transition: box-shadow 0.3s ease;
-    background-color: #84d3ed   ;
-}
-/* #E5232Fff */
-#Conteiner{
-    /* position: absolute; */
-}
-#ConteinerColors{
-    position:relative;
-    background-color: white;
-    top:400px;
-    left:580px;
-    height: 40px;
-    width: 80px;
-    /* border: solid 2px; */
-    cursor: pointer;
-}
-#changeColorRed{
-    position:relative;
-    background-color:  #E5232Fff;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    border: 0px ;
-}
-#changeColorPurple{
-    position:absolute;
-    background-color:  #ce26c0;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    justify-content: right;
-    border: 0px;
-} 
