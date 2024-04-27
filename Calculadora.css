@@ -46,10 +46,10 @@ body{
     color: white;
     border: solid 0;
     /* background: linear-gradient(to bottom, #1834ea, #101B55); */
-}#btn:hover{
-    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,1)  ;
+}.btn:hover{
+    box-shadow:  0 0.1rem 1rem 0.4rem rgba(19, 23, 21,1)  ;
     transition: box-shadow 0.1s ease;
-    background-color: #61853b   ;
+    background-color: #203efd   ;
 }
 #Conteiner{
     position: absolute;
