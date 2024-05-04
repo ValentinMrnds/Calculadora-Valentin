@@ -1,94 +1,165 @@
 body{
+    background-color: #BCDCF0;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; /* Asegura que el cuerpo de la página ocupe toda la altura visible del viewport */
     margin: 0; /* Elimina el margen predeterminado del cuerpo */
-    background-color: #101B55; /*Color principal*/
     /* background-color: var(--backgroundColor); */
-    font-family: 'Signika Negative', sans-serif;
+    font-family:'Jost';
+    ;
+}
+
+#conteiner{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 120px;
 }
 
 #display{
-    text-align:  center;
-    justify-content: center;
-    font-family: 'Signika Negative', sans-serif;    
-    font-size: 50px;
-    color:white;
-    margin-bottom: 20px;
-    border: solid 0;
-    background-color: #1c3193;
-    height:100px ;
-    width:470px ;
-    background: linear-gradient(to bottom, #1c3193, #101B55);
-    border-radius: 35px;
-    transition: box-shadow 0.5s ease, background-color 0.5s ease;
+    height: 115px;
+    width: 600px;
+    border-radius:30px;
+    background-color:#D6F0FF;
+    text-align: center;
+    align-content: center;
+    font-size: 35px;
+    border: solid 3px white;
+    position: absolute;
+    top: 140px;
+    transition: box-shadow 1s ease, border-radius 0.9s ease;
     /* Establece la sombra inicial */
     box-shadow: none;
-}
-#display:hover{
-    border-radius: 35px;
-    box-shadow: 0.5px 1px 1rem 10px white;
+}#display:hover{
+    border-radius:40px;
+    box-shadow: 0.5px 1px 1rem 4px white;
     transition: box-shadow 0.5s ease;
-    background-color: #2f49bd;
-    background: linear-gradient(to bottom, #2f49bd, #101B55);
-
-}
-.btn{
-    cursor: pointer;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 35px;
-    margin: 10px;
-    background-color: #1834ea;
-    border-radius: 20px;
-    height: 70px;
-    width: 70px;
-    color: white;
-    border: solid 0;
-    /* background: linear-gradient(to bottom, #1834ea, #101B55); */
-}.btn:hover{
-    box-shadow:  0 0.1rem 1rem 0.4rem rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
-    background-color: #203efd   ;
-}
-#Conteiner{
-    position: absolute;
-    width: 470px;
-    border: solid 4px #0b123b;
-    border-radius: 35px;
-
-}
-
-
-/* .btn:hover{
-    border-radius: 40px;
-    box-shadow:  0 0.1rem 0.4rem  rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
-    background-color: rgb(160, 201, 111)   ;
     border: 10px;
-} */
-/* .funciones{
+}
+
+
+.btn{
+    font-family: 'Jost', sans-serif;
+    background-color:#A3DBF4;
+    height:110px ;
+    width:110px ;
+    border-radius:40px;
     cursor: pointer;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 35px;
-    margin: 10px;
-    background-color: #6f9744;
-    border-radius: 30px;
-    height: 130px;
-    width: 130px;
-    border: 3px solid;
+    font-size: 20px;
+    margin: 3px;
+    border: solid 1px;
+    transition: box-shadow 0.7s ease, background-color 1s ease;
+    box-shadow: none;
+}.btn:hover{
+    box-shadow:  0 0.1rem 0.4rem 0.3rem white  ;
+    transition: box-shadow 0.4s ease;
+    background-color: #91C6E7;/*#91C6E7*/
+    border:0;
 }
-.funciones:hover{
-    border-radius:15px;
-   
-    border: 3px solid;
-} */
+
+
 #igual{
-    height: 160px;/*140 + 10 de margin + 10 de margin de relleno */
-    position:absolute;
+    height:110px ;
+    width:235px ;
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#igual:hover{
+    box-shadow:  0 0.1rem 1rem 0.5rem  rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7;
 }
+
+
 #CE{
-    width: 160px;/*140 + 10 de margin + 10 de margin de relleno */
-    position:absolute;
-    left: 190px;
+    height:110px ;
+    width:230px ;
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#CE:hover{
+    box-shadow:  0 0.1rem 1rem 0.5rem  rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7   ;
+  
 }
+
+
+#multiplicacion{
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#multiplicacion:hover{
+    box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7   ;
+}
+
+
+#division{
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#division:hover{
+    box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7   ;
+}
+
+
+#suma{
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#suma:hover{
+    box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7   ;
+}
+
+
+#resta{
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#resta:hover{
+    box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7   ;
+}
+
+
+#C{
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#C:hover{
+    box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7   ;
+}
+
+
+#punto{
+    background-color: #77B2D6;
+    border: solid 2px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    box-shadow: none;
+}#punto:hover{
+    box-shadow:  0 0.1rem 1rem black  ;
+    transition: box-shadow 0.1s ease;
+    background-color: #5d9ec7   ;
+}
+/* Commit 4/5/2045:
+Se rediseño totalmente la interfaz principal cambiando la paleta de colores, tamaño y forma de la calculadora
+Se agrego sombreado:hover color blanco en los botones de los numeros
+Se agrego sombreado:hover color negro en los botones de las funciones y un sombreado mas oscuro en los botones de CE y igual
+Se agrego un sombreado:hover en el div de display */
