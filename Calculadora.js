@@ -23,11 +23,34 @@ btn.forEach(botones => {
             variableDisplay.textContent=eval(variableDisplay.textContent);
             return;
         };
-
         if(variableDisplay.textContent === '0'){
             variableDisplay.textContent=botonApretado;
         }else{
             variableDisplay.textContent+=botonApretado;
         };
-    })
+        if(variableDisplay.textContent.includes('++')){
+            variableDisplay.textContent=variableDisplay.textContent.replace('++', '+');
+            return;
+        }else if(variableDisplay.textContent.includes('--')){
+            variableDisplay.textContent=variableDisplay.textContent.replace('--', '-');
+            return;
+        }else if(variableDisplay.textContent.includes('//')){
+            variableDisplay.textContent=variableDisplay.textContent.replace('//', '/');
+            return;
+        }else if(variableDisplay.textContent.includes('**')){
+            variableDisplay.textContent=variableDisplay.textContent.replace('**', '*');
+            return;
+        }else if(variableDisplay.textContent.includes('..')){
+            variableDisplay.textContent=variableDisplay.textContent.replace('..', '.');
+            return;
+        };
+        // if(variableDisplay.textContent.includes('+-')){
+        //     alert('se entro papa')
+        //     variableDisplay.textContent = variableDisplay.textContent.slice(0,-1)  ;
+        //     return;
+        // }
+    });
 }); 
+/*Commit 4/5/2024:
+Se soluciono el problema de los operadores repetidos (++,--,//,**, ..)
+ */
