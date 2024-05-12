@@ -28,14 +28,17 @@ body{
     border: solid 3px white;
     position: absolute;
     top: 140px;
-    transition: box-shadow 1s ease, border-radius 0.9s ease;
+    transition: box-shadow 1s ease, border-radius 0.5s ease;
     /* Establece la sombra inicial */
     box-shadow: none;
 }#display:hover{
     border-radius:40px;
-    box-shadow: 0.5px 1px 1rem 4px white;
-    transition: box-shadow 0.5s ease;
+    box-shadow: 0.5px 1px 1.5rem 4px white;
+    transition: box-shadow 0.5s ease, border-radius 0.5s ease;
     border: 10px;
+    /* box-shadow: 0.5px 1px 4rem 4px white;
+    transition: box-shadow 4s ease, border-radius 4s ease; */
+
 }
 
 
@@ -49,11 +52,11 @@ body{
     font-size: 20px;
     margin: 3px;
     border: solid 1px;
-    transition: box-shadow 0.7s ease, background-color 1s ease;
+    transition: box-shadow 0.7s ease, background-color 2s ease;
     box-shadow: none;
 }.btn:hover{
-    box-shadow:  0 0.1rem 0.4rem 0.3rem white  ;
-    transition: box-shadow 0.4s ease;
+    box-shadow:  0 0.1rem 0.4rem 0.3rem #708690  ;
+    transition: box-shadow 0.8s ease, background-color 1s ease;
     background-color: #91C6E7;/*#91C6E7*/
     border:0;
 }
@@ -68,7 +71,7 @@ body{
     box-shadow: none;
 }#igual:hover{
     box-shadow:  0 0.1rem 1rem 0.5rem  rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7;
 }
 
@@ -82,7 +85,7 @@ body{
     box-shadow: none;
 }#CE:hover{
     box-shadow:  0 0.1rem 1rem 0.5rem  rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7   ;
   
 }
@@ -95,7 +98,7 @@ body{
     box-shadow: none;
 }#multiplicacion:hover{
     box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7   ;
 }
 
@@ -107,7 +110,7 @@ body{
     box-shadow: none;
 }#division:hover{
     box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7   ;
 }
 
@@ -119,7 +122,7 @@ body{
     box-shadow: none;
 }#suma:hover{
     box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7   ;
 }
 
@@ -131,7 +134,7 @@ body{
     box-shadow: none;
 }#resta:hover{
     box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7   ;
 }
 
@@ -143,7 +146,7 @@ body{
     box-shadow: none;
 }#C:hover{
     box-shadow:  0 0.1rem 1rem 0.2rem rgba(19, 23, 21,1)  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7   ;
 }
 
@@ -155,7 +158,7 @@ body{
     box-shadow: none;
 }#punto:hover{
     box-shadow:  0 0.1rem 1rem black  ;
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.4s ease;
     background-color: #5d9ec7   ;
 }
 /* Commit 4/5/2045:
